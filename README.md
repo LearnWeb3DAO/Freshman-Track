@@ -16,7 +16,7 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 Level 2 (Basic Programming)
 
-Level 3 (Wallet Setup)
+[Level 3 (Wallet Setup)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
 
 Level 4 (Remix Smart contract)
 
