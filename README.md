@@ -20,7 +20,7 @@ Level 3 (Wallet Setup)
 
 Level 4 (Remix Smart contract)
 
-Level 5 (Solidity)
+[Level 5 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
 
 [Level 6 (Dapp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
 
