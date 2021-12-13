@@ -22,12 +22,12 @@ Level 4 (Remix Smart contract)
 
 Level 5 (Solidity)
 
-Level 6 (Dapp)
+[Level 6 (Dapp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
 
-Level 7 (Cryptocurrency)
+[Level 7 (Cryptocurrency)](https://github.com/LearnWeb3DAO/TokenTutorial)
 
 Level 8 (Downloads)
 
-Level 9 (NFT)
+[Level 9 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
 
 **Graduation**
