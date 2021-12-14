@@ -14,7 +14,7 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 [Level 2 (What is ETH)](https://github.com/LearnWeb3DAO/What-is-ETH)
 
-[Level 3 (Wallet Setup)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
+[Level 3 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
 
 Level 4 (Remix Smart contract)
 
