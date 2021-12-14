@@ -30,4 +30,4 @@ Level 4 (Remix Smart contract)
 
 [Level 8 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
 
-**Graduation**
+**Graduation** 🥳
