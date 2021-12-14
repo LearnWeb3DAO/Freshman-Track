@@ -12,6 +12,8 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 # Levels
 
+[Level 0 (What is Blockchain)](https://github.com/LearnWeb3DAO/What-is-Blockchain)
+
 [Level 1 (What is ETH)](https://github.com/LearnWeb3DAO/What-is-ETH)
 
 Level 2 (Basic Programming)
