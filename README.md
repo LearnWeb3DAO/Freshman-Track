@@ -16,7 +16,7 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 [Level 3 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
 
-Level 4 (Remix Smart contract)
+[Level 4 (Remix IDE)](https://github.com/LearnWeb3DAO/Remix)
 
 [Level 5 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
 
