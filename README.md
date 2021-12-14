@@ -24,7 +24,7 @@ Level 4 (Remix Smart contract)
 
 [Level 5 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
 
-[Level 6 (Dapp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
+[Level 6 (dApp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
 
 [Level 7 (Cryptocurrency)](https://github.com/LearnWeb3DAO/TokenTutorial)
 
