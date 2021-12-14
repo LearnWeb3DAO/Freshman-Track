@@ -12,18 +12,20 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 [Level 1 (What is Blockchain)](https://github.com/LearnWeb3DAO/What-is-Blockchain)
 
-[Level 2 (What is ETH)](https://github.com/LearnWeb3DAO/What-is-ETH)
+[Level 2 (What is Web3)](https://github.com/LearnWeb3DAO/What-is-Web3)
 
-[Level 3 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
+[Level 3 (What is ETH)](https://github.com/LearnWeb3DAO/What-is-ETH)
 
-[Level 4 (Remix IDE)](https://github.com/LearnWeb3DAO/Remix)
+[Level 4 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
 
-[Level 5 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
+[Level 5 (Remix IDE)](https://github.com/LearnWeb3DAO/Remix)
 
-[Level 6 (dApp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
+[Level 6 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
 
-[Level 7 (Cryptocurrency)](https://github.com/LearnWeb3DAO/TokenTutorial)
+[Level 7 (dApp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
 
-[Level 8 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
+[Level 8 (Cryptocurrency)](https://github.com/LearnWeb3DAO/TokenTutorial)
+
+[Level 9 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
 
 **Graduation** 🥳
