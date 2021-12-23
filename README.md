@@ -24,7 +24,7 @@ If you are reading this, you are a **beta-tester**. All levels are open to you. 
 
 [Level 7 (dApp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
 
-[Level 8 (Cryptocurrency)](https://github.com/LearnWeb3DAO/TokenTutorial)
+[Level 8 (Cryptocurrency)](https://github.com/LearnWeb3DAO/CryptocurrencyTutorial)
 
 [Level 9 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
 
