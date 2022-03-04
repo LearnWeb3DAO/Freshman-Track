@@ -1,4 +1,4 @@
-# Skill-Tree
+# Freshman Skill Tree
 
 Hello everyone! This is the official LearnWeb3DAO Freshman Track skill tree. 🌴
 
