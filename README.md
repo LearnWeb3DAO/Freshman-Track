@@ -1,10 +1,10 @@
 # Skill-Tree
 
-Hello everyone! This is the official LearnWeb3DAO skill tree. 🌴
+Hello everyone! This is the official LearnWeb3DAO Freshman Track skill tree. 🌴
 
 Here you will be able to start your web3 developer journey. From **zero** to **hero**, we will take you from setting up your first crypto-wallet all the way to creating a DAO.
 
-If you are reading this, you are a **beta-tester**. All levels are open to you. You are encouraged to complete as many levels as you can, take the skill tests, and leave feedback. Those of you who are able to graduate will receive the "**Early Contributor**" role. ✈️
+All levels are open to you. You are encouraged to complete as many levels as you can, take the skill tests, and leave feedback. Those of you who are able to graduate will receive the "**Early Contributor**" role. ✈️
 
 # Levels
 
