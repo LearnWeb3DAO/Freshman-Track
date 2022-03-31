@@ -8,24 +8,24 @@ All levels are open to you. You are encouraged to complete as many levels as you
 
 # Levels
 
-[Level 0 (Basic Programming)](https://github.com/LearnWeb3DAO/Basic-Programming)
+[Level 0 (Basic Programming)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/00.%20Basic%20Programming)
 
-[Level 1 (What is Blockchain)](https://github.com/LearnWeb3DAO/What-is-Blockchain)
+[Level 1 (What is Blockchain)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/01.%20What%20is%20Blockchain)
 
-[Level 2 (What is Web3)](https://github.com/LearnWeb3DAO/What-is-Web3)
+[Level 2 (What is Web3)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/02.%20What%20is%20Web3)
 
-[Level 3 (What is ETH)](https://github.com/LearnWeb3DAO/What-is-ETH)
+[Level 3 (What is ETH)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/03.%20What%20is%ETH)
 
-[Level 4 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Crypto-Wallets)
+[Level 4 (Crypto Wallets)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/04.%20Crypto%20Wallets)
 
-[Level 5 (Remix IDE)](https://github.com/LearnWeb3DAO/Remix)
+[Level 5 (Remix IDE)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/05.%20Remix%20IDE)
 
-[Level 6 (Solidity)](https://github.com/LearnWeb3DAO/Solidity)
+[Level 6 (Solidity)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/06.%20Solidity)
 
-[Level 7 (dApp)](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial)
+[Level 7 (dApp)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/07.%20dApp)
 
-[Level 8 (Cryptocurrency)](https://github.com/LearnWeb3DAO/CryptocurrencyTutorial)
+[Level 8 (Cryptocurrency)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/08.%20Cryptocurrency)
 
-[Level 9 (NFT)](https://github.com/LearnWeb3DAO/NFT-Tutorial)
+[Level 9 (NFT)](https://github.com/LearnWeb3DAO/Freshman-Track/tree/main/09.%20NFT)
 
 **Graduation** 🥳
