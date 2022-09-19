@@ -109,7 +109,7 @@ main()
   });
 ```
 
-Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Use the instructions in the comments to get your Alchemy API Key and Rinkeby Private Key. Make sure that the account from which you get your rinkeby private key is funded with Rinkeby Ether. You can get some here: [https://www.rinkebyfaucet.com/](https://www.rinkebyfaucet.com/)
+Now create a `.env` file in the `NFT-Tutorial` folder and add the following lines. Follow the instructions below.
 
 Go to [Quicknode](https://www.quicknode.com/?utm_source=learnweb3&utm_campaign=generic&utm_content=sign-up&utm_medium=learnweb3) and sign up for an account. Quicknode is a node provider that lets you connect to various different blockchains. We will be using it to deploy our contract through Hardhat. After creating an account, `Create an endpoint` on Quicknode, select `Ethereum`, and then select the `Goerli` network. Click `Continue` in the bottom right and then click on `Create Endpoint`. Copy the link given to you in `HTTP Provider` and add it to the `.env` file below for `QUICKNODE_HTTP_URL`
 
@@ -119,7 +119,6 @@ To get your private key, you need to export it from Metamask. Open Metamask, cli
 QUICKNODE_HTTP_URL="add-quicknode-http-provider-url-here"
 
 PRIVATE_KEY="add-the-private-key-here"
-
 ```
 
 You can think of Quicknode as AWS EC2 for blockchain. It is a node provider. They run Ethereum nodes (among other blockchains) and give us access to them. It helps us to connect with the blockchain by providing us with nodes so that we can read and write to the blockchain. Your Hardhat application will take your smart contract and send it to the Ethereum node given to us by Quicknode so it can be deployed on the Goerli network.
@@ -129,7 +128,7 @@ You can think of Quicknode as AWS EC2 for blockchain. It is a node provider. The
   ```bash
   npm install dotenv
   ```
-- Now open the hardhat.config.js file, we would add the `rinkeby` network here so that we can deploy our contract to rinkeby. Replace all the lines in the `hardhat.config.js` file with the given below lines
+- Now open the hardhat.config.js file, we would add the `goerli` network here so that we can deploy our contract to the Goerli network. Replace all the lines in the `hardhat.config.js` file with the given below lines
 
 ```js
 require("@nomicfoundation/hardhat-toolbox");
@@ -143,7 +142,7 @@ module.exports = {
   networks: {
     goerli: {
       url: QUICKNODE_HTTP_URL,
-      accounts: [RINKEBY_PRIVATE_KEY],
+      accounts: [PRIVATE_KEY],
     },
   },
 };
