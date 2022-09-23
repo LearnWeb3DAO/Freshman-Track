@@ -171,14 +171,14 @@ Now it's time to create a Solidity smart contract.
 
    - And that's it! Your code should look like [this](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial/blob/master/contracts/mood.sol)
 
-6. Deploy the contract on the Ropsten Testnet.
-   - Make sure your Metamask is connected to the Ropsten Testnet.
+6. Deploy the contract on the Goerli Testnet.
+   - Make sure your Metamask is connected to the Goerli Testnet.
    - Make sure you select the right compiler version to match the solidity contract. (In the compile tab)
    - Compile the code using the "Solidity Compiler" tab. _Note that it may take a moment to load the compiler_
    - Deploy the contract under the "Deploy and Run Transactions" tab
    - Under the Deployed Contracts section, you can test out your functions on the Remix Run tab to make sure your contract works as expected!
 
-**_Be sure to deploy on Ropsten via Remix under the `Injected Web3` environment and confirm the deployment transaction in Metamask_**
+**_Be sure to deploy on Goerli via Remix under the `Injected Web3` environment and confirm the deployment transaction in Metamask_**
 
 Make a new temporary file to hold:
 
@@ -277,10 +277,10 @@ const MoodContractABI = [
 ]
 ```
 
-3. Next, Define an ethers provider. In our case it is Ropsten:
+3. Next, Define an ethers provider. In our case it is Goerli:
 
 ```javascript
-const provider = new ethers.providers.Web3Provider(window.ethereum, "ropsten");
+const provider = new ethers.providers.Web3Provider(window.ethereum, "goerli");
 ```
 
 4. Request access to the user's wallet and connect the signer to your metamask account (we use `[0]` as the default), and define the contract object using your contract address, ABI, and signer
@@ -346,7 +346,7 @@ cd BasicFrontEndTutorial
 lite-server
 ```
 
-#### Try and use the following information to interact with an existing contract we published on the Ropsten testnet:
+#### Try and use the following information to interact with an existing contract we published on the Ropsten testnet (yours will be on Goerli):
 
 - We have a `MoodDiary` contract instance created [at this transaction](https://ropsten.etherscan.io/tx/0x8da093fdc4ae3e1b469dfff97b414a9800c9fdd8c1c897b6b746faf43aa3b7f8)
 
