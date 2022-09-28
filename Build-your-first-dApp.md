@@ -193,7 +193,7 @@ Make a new temporary file to hold:
 
 Back in your local text editor in `index.html`, add the following code to your html page:
 
-1. Import the Ethers.js source into your `index.html` page inside a new set of script tags:
+1. Import the Ethers.js source into your `index.html` page inside the `<body>` tag with a new set of script tags:
 
 ```html
 <script
