@@ -50,7 +50,7 @@ pragma solidity ^0.8.0;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
 contract LW3Token is ERC20 {
-    constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {
+    constructor() ERC20("LW3Token", "LW3") {
         _mint(msg.sender, 10 * 10 ** 18);
     }
 }
@@ -93,16 +93,16 @@ If you are familiar with Object Oriented Programming principles, you can think o
 ---
 
 ```solidity
-constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {
+constructor() ERC20("name of token", "symbol of token") {
      ...
 }
 ```
 
 This bit has slightly weird syntax that you might not have seen before. `Kotlin` actually has some similar syntax, but I digress.
 
-Essentially, we created `constructor` function that is called when the smart contract is first deployed. Within the constructor, we want two arguments from the user - `_name` and `_symbol` which specify the name and symbol of our cryptocurrency. E.g. name = Ethereum, symbol = ETH.
+Essentially, we created `constructor` function that is called when the smart contract is first deployed. E.g. name = Ethereum, symbol = ETH.
 
-What happens after it is more interesting. Immediately after specifying the constructor function, we call `ERC20(_name, _symbol)`.
+What happens after it is more interesting. Immediately after specifying the constructor function, we call `ERC20("name of token", "symbol of token")`. You can choose what `Name of token` and `Symbol of token` you want here. E.g. name = Ethereum, symbol = ETH.
 
 The `ERC20` contract we imported from OpenZeppelin has its own constructor, which requires the `name` and `symbol` parameters. Since we are extending the ERC20 contract, we need to initialize the ERC20 contract when we deploy ours. So, as part of our constructor, we also need to call the constructor on the `ERC20` contract.
 
