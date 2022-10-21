@@ -32,7 +32,7 @@ If you would rather learn from a video, we have a recording available of this tu
    - [Faucet link to request funds](https://faucets.chain.link/)
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
 
-3. **Install a http server. Use any you like, but we recommend `lite-server` for beginners:**
+3. **Install an http server. Use any you like, but we recommend `lite-server` for beginners:**
 
    - Install Node.js ([Download and Instructions](https://nodejs.org/en/download/))
    - Install lite-server (with NPM in a terminal/command prompt):
