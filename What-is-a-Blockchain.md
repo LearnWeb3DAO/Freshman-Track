@@ -89,6 +89,8 @@ To learn more about blockchains, we highly suggest the following resources:
 
 #### Recommended
 
+- [Secure Hash Algorithm](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
+- [Byzantine General problem](https://river.com/learn/what-is-the-byzantine-generals-problem/)
 - [A Gentle Introduction to Blockchain Technology by Bits On Blocks](https://bitsonblocks.net/2015/09/09/gentle-introduction-blockchain-technology/)
 - [How does a blockchain work by Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
