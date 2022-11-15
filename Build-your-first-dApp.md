@@ -178,7 +178,7 @@ Now it's time to create a Solidity smart contract.
    - Deploy the contract under the "Deploy and Run Transactions" tab
    - Under the Deployed Contracts section, you can test out your functions on the Remix Run tab to make sure your contract works as expected!
 
-**_Be sure to deploy on Goerli via Remix under the `Injected Web3` environment and confirm the deployment transaction in Metamask_**
+**_Be sure to deploy on Goerli via Remix under the `Injected Provider - MetaMask` environment and confirm the deployment transaction in Metamask_**
 
 Make a new temporary file to hold:
 
