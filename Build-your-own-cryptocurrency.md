@@ -152,7 +152,7 @@ Compile your contract by either pressing Save (CTRL + S on Windows, Command + S 
 
 Head over to the `Deployer` tab in Remix.
 
-Select the `Injected Web3` environment (ensure you are on the Goerli Test Network), and connect your Metamask wallet.
+Select the `Injected Provider - MetaMask` environment (ensure you are on the Goerli Test Network), and connect your Metamask wallet.
 
 Select the `LW3Token.sol` contract, and enter values for the constructor arguments `_name` and `_symbol`.
 
