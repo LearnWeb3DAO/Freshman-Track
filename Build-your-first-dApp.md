@@ -163,7 +163,7 @@ Now it's time to create a Solidity smart contract.
         mood = _mood;
     }
 
-    //create a function the reads the mood from the smart contract
+    //create a function that reads the mood from the smart contract
     function getMood() public view returns(string memory){
         return mood;
     }
