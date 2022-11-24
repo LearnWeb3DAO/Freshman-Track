@@ -50,7 +50,7 @@ npm install @openzeppelin/contracts
 - In the contracts folder, create a new Solidity file called NFTee.sol
 - Now we would write some code in the NFTee.sol file. We would be importing [Openzeppelin's ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol). ERC721 is the most common standard for creating NFT's. In the freshman track, we would only be using ERC721. In the sophomore track, you'll learn more about ERC721's in detail. For now, don't worry if you dont understand everything :)
 
-```js
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -58,9 +58,9 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 // GameItem is  ERC721 signifies that the contract we are creating imports ERC721 and follows ERC721 contract from openzeppelin
-contract GameItem is ERC721 {
+contract NFTee is ERC721 {
 
-    constructor() ERC721("GameItem", "ITM") {
+    constructor() ERC721("NFTee", "ITM") {
         // mint an NFT to yourself
         _mint(msg.sender, 1);
     }
@@ -88,7 +88,7 @@ async function main() {
 A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
 so nftContract here is a factory for instances of our GameItem contract.
 */
-  const nftContract = await ethers.getContractFactory("GameItem");
+  const nftContract = await ethers.getContractFactory("NFTee");
 
   // here we deploy the contract
   const deployedNFTContract = await nftContract.deploy();
