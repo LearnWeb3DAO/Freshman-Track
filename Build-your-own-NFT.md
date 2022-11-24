@@ -26,7 +26,7 @@ To setup a Hardhat project, Open up a terminal and execute these commands
 mkdir NFT-Tutorial
 cd  NFT-Tutorial
 npm init --yes
-npm install --save-dev hardhat
+npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
 ```
 
 In the same directory where you installed Hardhat run:
