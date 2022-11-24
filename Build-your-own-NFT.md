@@ -2,7 +2,7 @@
 
 ## Prefer a Video?
 
-If you would rather learn from a video, we have a recording available of this tutorial on our YouTube. Watch the video by clicking on the screenshot below, or go ahead and read the tutorial!
+*If you would rather learn from a video, we have a recording of this tutorial available on our YouTube channel. You can watch it by clicking on the screenshot below. Otherwise, you can go ahead and continue reading this tutorial!*
 
 [![Cryptocurrency Tutorial](https://i.imgur.com/klHysek.png)](https://www.youtube.com/watch?v=uwnAXAsd428 "NFT Tutorial")
 
@@ -41,14 +41,14 @@ Select `Create a Javascript Project` and follow the steps. At the end, you will 
 
 ## Write NFT Contract Code
 
-Lets install some OpenZeppelin contracts so we can get access to the ERC-721 contracts. In your terminal, execute the following command:
+Let's install some OpenZeppelin contracts so we can get access to the ERC-721 contracts. In your terminal, execute the following command:
 
 ```
 npm install @openzeppelin/contracts
 ```
 
-- In the contracts folder, create a new solidity file called NFTee.sol
-- Now we would write some code in the NFTee.sol file. We would be importing [Openzeppelin's ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol). ERC721 is the most common standard for creating NFT's. In the freshman track, we would only be using ERC721. In the sophomore track, you would learn more about ERC721's in detail. So dont worry, if you dont understand everything :)
+- In the contracts folder, create a new Solidity file called NFTee.sol
+- Now we would write some code in the NFTee.sol file. We would be importing [Openzeppelin's ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol). ERC721 is the most common standard for creating NFT's. In the freshman track, we would only be using ERC721. In the sophomore track, you'll learn more about ERC721's in detail. For now, don't worry if you dont understand everything :)
 
 ```js
 // SPDX-License-Identifier: MIT
@@ -77,7 +77,7 @@ If there are no errors, you are good to go :)
 
 ## Configuring Deployment
 
-Lets deploy the contract to `goerli` test network. To do this, we'll write a deployment script and then configure the network. First, create a new file/replace the default file named `deploy.js` under the `scripts` folder, and write the following code there:
+Let's deploy the contract to `goerli` test network. To do this, we'll write a deployment script and then configure the network. First, create a new file/replace the default file named `deploy.js` under the `scripts` folder, and write the following code there:
 
 ```js
 // Import ethers from Hardhat package
