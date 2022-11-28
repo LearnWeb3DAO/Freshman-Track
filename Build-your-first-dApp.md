@@ -37,7 +37,7 @@ If you would rather learn from a video, we have a recording available of this tu
 
    - You can use whatever editor you want, but we recommend installing [Visual Studio Code](https://code.visualstudio.com/) since it has some helpful extensions and characteristics. The extensions are **optional**, but we recommend the following:
 
-      - [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) - Syntax highlighting for Solidity
+      - [Solidity](https://marketplace.visualstudio.com/items?itemName=NomicFoundation.hardhat-solidity) - Syntax highlighting for Solidity
       - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Allows you to run a local server to test your HTML/CSS/JS files
       - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter for JS, CSS, and HTML files
       - [npm IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Autocompletes npm modules in import statements
