@@ -42,7 +42,7 @@ If you would rather learn from a video, we have a recording available of this tu
       - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter for JS, CSS, and HTML files
       - [npm IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Autocompletes npm modules in import statements
       - [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) - Autocomplete for CSS classes in HTML files
-      - [GitLens](https://marketplace.visualstudio.com/items?itemName=naco-siren.githlens) - Shows git blame information in the editor
+      - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Shows git blame information in the editor
    
       <sup>( If you are using Visual Studio Code, you can install all of these extensions by clicking on the extension's icon on the left sidebar, searching for the extension name, and clicking the install button ).</sup>
 
