@@ -51,13 +51,15 @@ If you would rather learn from a video, we have a recording available of this tu
    - Install Node.js ( [Download and Instructions](https://nodejs.org/en/download/) )
    - Install lite-server ( with NPM in a terminal / command prompt ):
 
-    <br>
+   <p>
 
-   ```bash
-   # This installs `lite-server` globally (-g) on your computer
-   npm install -g lite-server
-   ```
+    ```bash
+    # This installs `lite-server` globally (-g) on your computer
+    npm install -g lite-server
+    ```
     <sup> ( If you are using Visual Studio Code, you can open a terminal by clicking on `Terminal > New Terminal`. And if you have the Live Server extension installed as well, you can skip this part. )</sup>
+
+   </p>
 
 ---
 
@@ -154,46 +156,50 @@ Now it's time to create a Solidity smart contract.
 
    - Specify the solidity version and add a license
     
-    <br>
+    <p>
 
-   ```JS
-   // SPDX-License-Identifier: MIT
-    pragma solidity ^0.8.1;
-   ```
-
+      ```JS
+      // SPDX-License-Identifier: MIT
+      pragma solidity ^0.8.1;
+      ```
+    </p>
+  
    - Define the contract
  
-    <br>
+    <p>
 
-   ```JS
-    contract MoodDiary{
-      // This is the contract's body, here you'll specify the logic for this contract.
-    }
-   ```
+      ```JS
+      contract MoodDiary{
+        // This is the contract's body, here you'll specify the logic for this contract.
+      }
+      ```
+    </p>
 
    - Inside the contract create a variable called mood
  
-    <br>
+    <p>
 
-   ```
-    string mood;
-   ```
+      ```
+      string mood;
+      ```
+    </p>
 
    - Next, create Read and Write functions
  
-    <br>
+    <p>
 
-   ```JS
-    //create a function that writes a mood to the smart contract
-    function setMood(string memory _mood) public{
-        mood = _mood;
-    }
+      ```JS
+      //create a function that writes a mood to the smart contract
+      function setMood(string memory _mood) public{
+          mood = _mood;
+      }
 
-    //create a function the reads the mood from the smart contract
-    function getMood() public view returns(string memory){
-        return mood;
-    }
-   ```
+      //create a function the reads the mood from the smart contract
+      function getMood() public view returns(string memory){
+          return mood;
+      }
+      ```
+    </p>
 
    - And that's it! Your code should look like [this](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial/blob/master/contracts/mood.sol)
 
