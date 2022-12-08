@@ -48,18 +48,16 @@ If you would rather learn from a video, we have a recording available of this tu
 
 3. **Install a HTTP server. Use any you like, but we recommend `lite-server` for beginners:**
 
-   - Install Node.js ( [Download and Instructions](https://nodejs.org/en/download/) )
-   - Install lite-server ( with NPM in a terminal / command prompt ):
+    - Install Node.js ( [Download and Instructions](https://nodejs.org/en/download/) )
+    - Install lite-server ( with NPM in a terminal / command prompt ):
 
-   <p>
+    &nbsp;
 
     ```bash
     # This installs `lite-server` globally (-g) on your computer
     npm install -g lite-server
     ```
     <sup> ( If you are using Visual Studio Code, you can open a terminal by clicking on `Terminal > New Terminal`. And if you have the Live Server extension installed as well, you can skip this part. )</sup>
-
-   </p>
 
 ---
 
@@ -154,54 +152,54 @@ Now it's time to create a Solidity smart contract.
 4. Create a new solidity file in remix, named `mood.sol`
 5. Write the contract
 
-   - Specify the solidity version and add a license
-    
-    <p>
+    &nbsp;
 
-      ```JS
-      // SPDX-License-Identifier: MIT
-      pragma solidity ^0.8.1;
-      ```
-    </p>
+    - Specify the solidity version and add a license
+
+    &nbsp;
+
+    ```JS
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.1;
+    ```
   
-   - Define the contract
+    - Define the contract
  
-    <p>
+    &nbsp;
 
-      ```JS
-      contract MoodDiary{
-        // This is the contract's body, here you'll specify the logic for this contract.
-      }
-      ```
-    </p>
+    ```JS
+    contract MoodDiary{
+      // This is the contract's body, here you'll specify the logic for this contract.
+    }
+    ```
 
-   - Inside the contract create a variable called mood
+    - Inside the contract create a variable called mood
  
-    <p>
+    &nbsp;
 
-      ```
-      string mood;
-      ```
-    </p>
+    ```
+    string mood;
+    ```
 
-   - Next, create Read and Write functions
+    - Next, create Read and Write functions
  
-    <p>
+    &nbsp;
 
-      ```JS
-      //create a function that writes a mood to the smart contract
-      function setMood(string memory _mood) public{
-          mood = _mood;
-      }
+    ```JS
+    //create a function that writes a mood to the smart contract
+    function setMood(string memory _mood) public{
+        mood = _mood;
+    }
 
-      //create a function the reads the mood from the smart contract
-      function getMood() public view returns(string memory){
-          return mood;
-      }
+    //create a function the reads the mood from the smart contract
+    function getMood() public view returns(string memory){
+        return mood;
+    }
       ```
-    </p>
 
-   - And that's it! Your code should look like [this](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial/blob/master/contracts/mood.sol)
+    - And that's it! Your code should look like [this](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial/blob/master/contracts/mood.sol)
+
+   &nbsp;
 
 6. Deploy the contract on the Goerli Testnet.
    - Make sure your Metamask is connected to the Goerli Testnet.
