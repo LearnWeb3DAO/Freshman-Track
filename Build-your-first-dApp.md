@@ -33,7 +33,7 @@ If you would rather learn from a video, we have a recording available of this tu
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
 
 
-4. **Install a code editor.**
+3. **Install a code editor.**
 
    - You can use whatever editor you want, but we recommend installing [Visual Studio Code](https://code.visualstudio.com/) since it has some helpful extensions and characteristics. The extensions are **optional**, but we recommend the following:
 
@@ -46,7 +46,7 @@ If you would rather learn from a video, we have a recording available of this tu
    
       <sup>( If you are using Visual Studio Code, you can install all of these extensions by clicking on the extension's icon on the left sidebar, searching for the extension name, and clicking the install button ).</sup>
 
-3. **Install a HTTP server. Use any you like, but we recommend `lite-server` for beginners:**
+4. **Install a HTTP server. Use any you like, but we recommend `lite-server` for beginners:**
 
     - Install Node.js ( [Download and Instructions](https://nodejs.org/en/download/) )
     - Install lite-server ( with NPM in a terminal / command prompt ):
