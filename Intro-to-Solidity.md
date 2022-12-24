@@ -121,8 +121,8 @@ contract Conditions {
 
     /*
         Name of the function is set.
-        It takes in a uint and sets the state variable num.
-        It is a declared as a public function meaning
+        It takes in an uint and sets the state variable num.
+        It is declared as a public function meaning
         it can be called from within the contract and also externally.
     */
     function set(uint _num) public {
@@ -133,7 +133,7 @@ contract Conditions {
         Name of the function is get.
         It returns the value of num.
         It is declared as a view function meaning
-        that the function doesnt change the state of any variable.
+        that the function doesn't change the state of any variable.
         view functions in solidity do not require gas.
     */
     function get() public view returns (uint) {
@@ -142,7 +142,7 @@ contract Conditions {
 
     /*
         Name of the function is foo.
-        It takes in  uint and returns an uint.
+        It takes in an uint and returns an uint.
         It compares the value of x using if/else
     */
     function foo(uint x) public returns (uint) {
@@ -209,7 +209,7 @@ contract Array {
 
     /*
      Solidity can return the entire array.
-     This function gets called with and returns a uint[] memory.
+     This function gets called with and returns an uint[] memory.
      memory - the value is stored only in memory, and not on the blockchain
               it only exists during the time the function is being executed
 
