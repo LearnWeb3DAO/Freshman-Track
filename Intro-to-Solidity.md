@@ -121,7 +121,7 @@ contract Conditions {
 
     /*
         Name of the function is set.
-        It takes in a uint and sets the state variable num.
+        It takes in an uint and sets the state variable num.
         It is declared as a public function meaning
         it can be called from within the contract and also externally.
     */
@@ -142,7 +142,7 @@ contract Conditions {
 
     /*
         Name of the function is foo.
-        It takes in a uint and returns a uint.
+        It takes in an uint and returns an uint.
         It compares the value of x using if/else
     */
     function foo(uint x) public returns (uint) {
@@ -209,7 +209,7 @@ contract Array {
 
     /*
      Solidity can return the entire array.
-     This function gets called with and returns a uint[] memory.
+     This function gets called with and returns an uint[] memory.
      memory - the value is stored only in memory, and not on the blockchain
               it only exists during the time the function is being executed
 
