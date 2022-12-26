@@ -57,7 +57,7 @@ pragma solidity ^0.8.0;
 // Import the openzepplin contracts
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-// GameItem is  ERC721 signifies that the contract we are creating imports ERC721 and follows ERC721 contract from openzeppelin
+// NFTee is  ERC721 signifies that the contract we are creating imports ERC721 and follows ERC721 contract from openzeppelin
 contract NFTee is ERC721 {
 
     constructor() ERC721("NFTee", "ITM") {
@@ -86,7 +86,7 @@ const { ethers } = require("hardhat");
 async function main() {
   /*
 A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
-so nftContract here is a factory for instances of our GameItem contract.
+so nftContract here is a factory for instances of our NFTee contract.
 */
   const nftContract = await ethers.getContractFactory("NFTee");
 
