@@ -99,11 +99,12 @@ We will create an app that simply reads and writes a value to the blockchain. We
 </body>
 ```
 
-7.  Inside the div tag add some buttons.
+7.  Inside the div tag add some buttons and a tag to show the mood.
 
 ```html
 <button onclick="getMood()">Get Mood</button>
 <button onclick="setMood()">Set Mood</button>
+<p id="showMood"></p>
 ```
 
 OPTIONAL: Inside the `<head>` tag, add some styles to make it look nicer
@@ -334,7 +335,7 @@ provider.send("eth_requestAccounts", []).then(() => {
 async function getMood() {
   const getMoodPromise = MoodContract.getMood();
   const Mood = await getMoodPromise;
-  console.log(Mood);
+  document.getElementById("showMood").innerText = `Your Mood: ${Mood}`;
 }
 
 async function setMood() {
