@@ -29,7 +29,7 @@ If you would rather learn from a video, we have a recording available of this tu
 
 2. **Request some Goerli Tesnet Ether from a faucet loaded into your Metamask Wallet.**
 
-   - [Faucet link to request funds](https://faucets.chain.link/)
+   - [Faucet link to request funds](https://goerlifaucet.com/)
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
 
 
