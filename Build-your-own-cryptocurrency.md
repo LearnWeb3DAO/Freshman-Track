@@ -16,7 +16,7 @@ If you would rather learn from a video, we have a recording available of this tu
 
 `ERC-20` specifically is a standard which outlines the technical specification of a fungible token.
 
-> A fungible token is one in which all 'parts' of the token are the same. Exchanging 1 ETH for a different 1 ETH doesn't change anything. You still have 1 ETH. Therefore, ETH is a fungible token. All fiat currency is also fungible.
+> A fungible token is one in which all 'parts' of the token are the same. Exchanging 1 ETH for a different 1 ETH doesn't change anything. You still have 1 ETH. Therefore, ETH is a fungible token. All fiat currencies are fungible as well.
 
 > NFTs are examples of Non-Fungible Tokens (more on this later) where each token is different from a different token.
 
