@@ -29,7 +29,6 @@ For example, decentralized exchanges like [Uniswap](https://uniswap.org/) allow 
 - Make sure you have downloaded and installed [Metamask](https://metamask.io/).
 - Select the `Goerli Testnet` network to work with
 - Request some testnet ether on Goerli through any one of the following faucets:
-  - [Metamask Faucet](https://faucet.metamask.io/)
   - [Chainlink Faucet](https://faucets.chain.link/)
   - [Paradigm Faucet](https://faucet.paradigm.xyz/)
 
