@@ -25,9 +25,9 @@ If you would rather learn from a video, we have a recording available of this tu
 
      _The important bits for us are: `1:06 to 4:14`_
 
-   - Click Ethereum Mainnet at the top. Change to the Goerli Tesnet and get a copy of the account's public address on your Metamask Wallet.
+   - Click Ethereum Mainnet at the top. Change to the Goerli Testnet and get a copy of the account's public address on your Metamask Wallet.
 
-2. **Request some Goerli Tesnet Ether from a faucet loaded into your Metamask Wallet.**
+2. **Request some Goerli Testnet Ether from a faucet loaded into your Metamask Wallet.**
 
    - [Faucet link to request funds](https://goerlifaucet.com/)
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
