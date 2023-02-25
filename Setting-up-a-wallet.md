@@ -22,7 +22,7 @@ You can think of it like a password, a really strong one, that contains a bunch 
 
 A private key looks something like this: `E9873D79C6D87DC0FB6A5778633389F4453213303DA61F20BD67FC233AA33262`
 
-If you think of your address as a username for your account, the private key is it's password. Therefore sharing your address is okay, but never ever share your private key or someone might steal your funds - and then nothing can be done about it.
+If you think of your address as a username for your account, the private key is its password. Therefore sharing your address is okay, but never ever share your private key or someone might steal your funds - and then nothing can be done about it.
 
 <Quiz questionId="2f0f1c91-7171-4039-bc84-8d6efbb717ff" />
 
