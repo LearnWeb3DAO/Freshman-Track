@@ -336,6 +336,7 @@ async function getMood() {
   const getMoodPromise = MoodContract.getMood();
   const Mood = await getMoodPromise;
   document.getElementById("showMood").innerText = `Your Mood: ${Mood}`;
+  console.log(Mood);
 }
 
 async function setMood() {
