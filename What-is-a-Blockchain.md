@@ -40,7 +40,7 @@ Another type of node, called a [mining node](https://en.wikipedia.org/wiki/Bitco
 
 <Quiz questionId="cda75960-e266-4deb-b317-20ccdcae9b98" />
 
-The use of a blockchain confirms that each unit of value was transfered only once, and the ingenious mechanisms put forth by Satoshi Nakamoto solved the long-standing decentralized [double-spending](https://en.wikipedia.org/wiki/Double-spending) problem.
+The use of a blockchain confirms that each unit of value was transferred only once, and the ingenious mechanisms put forth by Satoshi Nakamoto solved the long-standing decentralized [double-spending](https://en.wikipedia.org/wiki/Double-spending) problem.
 
 <Quiz questionId="229ed272-9cd3-4b42-936d-871cb2cfac3d" />
 

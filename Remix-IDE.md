@@ -51,7 +51,7 @@ Moving over to the `Deployment` tab, we will see something like this in the side
 
 <Quiz questionId="be553003-ef98-4517-88ac-1cea9c4a4008" />
 
-First thing to note here is the `Environment`. Remix ships with a `Remix VM (London)` - which is a simulator of the Ethereum Virtual Machine (EVM) running the London Upgrade (Explaination on this is given in the Sophomore course) in the browser. This allows for fast testing and debugging of your smart contract, as long as your contract doesn't depend on another contract deployed to a real Ethereum network. Thankfully, our Storage contract does not, so we can test it right here in the Remix VM.
+First thing to note here is the `Environment`. Remix ships with a `Remix VM (London)` - which is a simulator of the Ethereum Virtual Machine (EVM) running the London Upgrade (Explanation on this is given in the Sophomore course) in the browser. This allows for fast testing and debugging of your smart contract, as long as your contract doesn't depend on another contract deployed to a real Ethereum network. Thankfully, our Storage contract does not, so we can test it right here in the Remix VM.
 
 To deploy to actual networks, we will want to change our `Environment` to one of the other options listed there (more on this later).
 

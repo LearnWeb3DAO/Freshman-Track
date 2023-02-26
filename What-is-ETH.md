@@ -8,11 +8,11 @@ Ethereum is a decentralized blockchain that supports smart contracts. Unlike Bit
 
 Developers can build dApps, or decentralized applications, which can be executed on the Ethereum network on the Ethereum Virtual Machine (EVM). The global state of Ethereum therefore consists of more than just the balance of every account, but also the state of each dApp.
 
-dApps are built on Ethereum using it's programming language, Solidity. You can write smart contracts using Solidity and deploy the smart contracts to the Ethereum Network.
+dApps are built on Ethereum using its programming language, Solidity. You can write smart contracts using Solidity and deploy the smart contracts to the Ethereum Network.
 
 <Quiz questionId="66d1c830-7e85-4d52-9686-045f96d5026a" />
 
-It maintains consensus across all the computers in it's network with Proof of Stake (PoS). The Serenity Patch, introduced in September of 2022, made the switch for Ethereum going from Proof of Work to a Proof of Stake mechanism. We learn more about Proof of Work in the later Sophomore track.
+It maintains consensus across all the computers in its network with Proof of Stake (PoS). The Serenity Patch, introduced in September of 2022, made the switch for Ethereum going from Proof of Work to a Proof of Stake mechanism. We learn more about Proof of Work in the later Sophomore track.
 
 <Quiz questionId="d04384a8-ea61-4c59-b02c-5637802a8f6e" />
 
