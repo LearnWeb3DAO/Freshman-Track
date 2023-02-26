@@ -48,7 +48,7 @@ npm install @openzeppelin/contracts
 ```
 
 - In the contracts folder, create a new Solidity file called NFTee.sol
-- Now we would write some code in the NFTee.sol file. We would be importing [Openzeppelin's ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol). ERC721 is the most common standard for creating NFT's. In the freshman track, we would only be using ERC721. In the sophomore track, you'll learn more about ERC721's in detail. For now, don't worry if you dont understand everything :)
+- Now we would write some code in the NFTee.sol file. We would be importing [Openzeppelin's ERC721 Contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol). ERC721 is the most common standard for creating NFT's. In the freshman track, we would only be using ERC721. In the sophomore track, you'll learn more about ERC721's in detail. For now, don't worry if you don't understand everything :)
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -158,4 +158,4 @@ module.exports = {
 
 - Go to [Goerli Etherscan](https://goerli.etherscan.io/) and search for the address that was printed.
 - If the `address` opens up on etherscan, you have deployed your first NFT 🎉
-- Go to the transaction details by clicking on the transaction hash, check that there was a token transfered to your address
+- Go to the transaction details by clicking on the transaction hash, check that there was a token transferred to your address
