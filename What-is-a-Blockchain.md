@@ -2,9 +2,10 @@
 
 ![](https://i.imgur.com/Pn1B0t8.png)
 
-A blockchain is a shared, distributed, and permanent database shared among multiple nodes on a computer network. They record data in a way that makes it probabilistically impossible to modify or hack the system.
+A blockchain is a distributed, digital, immutable ledger that is used to record transactions and store data in a secure and transparent manner. It is based on a decentralized network of nodes that collectively maintain a single source of truth, allowing participants to interact with the system without the need for intermediaries.
 
-Specifically, as its namesake, blockchains record data as a chain of blocks. Each block contains a group of transactions, which could be transferring assets around the network, or updating the information stored on the blockchain.
+A block is a container data structure that aggregates transactions for inclusion in the public ledger, the Blockchain.
+Each block in the chain contains a set of transactions that have been verified and recorded by the network of nodes through a process known as consensus. Once a block is added to the chain, it cannot be altered or deleted, creating an immutable record of all transactions on the network.
 
 Blockchains were popularized by the anonymous person (or group) Satoshi Nakamoto, when they released the [Bitcoin Network](https://bitcoin.org) in 2009. Bitcoin is a cryptocurrency network, and it handles primarily the transfer of the BTC asset across the network, without a trusted middleman or authority, while ensuring the network itself is secure and cannot be hacked. (P.S. The bitcoin network is also likely the biggest bug bounty in the world - if you can hack it, you're an instant trillionaire).
 
