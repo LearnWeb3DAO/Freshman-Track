@@ -12,7 +12,7 @@ Additionally, you may also want to store some user data or other data outside th
 
 ### Frontend Technologies
 
-Frontend is the interface with which an user interacts. On the web, the frontend refers to a website you can browse around. Mobile apps, and desktop apps, are also examples of valid frontend interfaces. For the purposes of this course, we will focus on the web, and develop frontend interfaces using web technologies such as HTML, CSS, and Javascript. React knowledge would also be useful as you progress further, though is not required for the Freshman Track.
+Frontend is the interface with which a user interacts. On the web, the frontend refers to a website you can browse around. Mobile apps, and desktop apps, are also examples of valid frontend interfaces. For the purposes of this course, we will focus on the web, and develop frontend interfaces using web technologies such as HTML, CSS, and Javascript. React knowledge would also be useful as you progress further, though is not required for the Freshman Track.
 
 - [Frontend Development Essentials](https://betterprogramming.pub/frontend-development-the-essentials-1c1290b43590)
 - [Learn Javascript for Free](https://scrimba.com/learn/learnjavascript)
