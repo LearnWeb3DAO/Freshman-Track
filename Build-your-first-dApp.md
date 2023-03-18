@@ -204,7 +204,8 @@ Now it's time to create a Solidity smart contract.
    &nbsp;
 
 6. Deploy the contract on the Sepolia Testnet.
-   - Make sure your Metamask is connected to the network where you deployed your contract.
+   - **IMPORTANT:** It is essential to avoid connecting your Metamask wallet to the Ethereum Mainnet when practicing or testing deployments. Deploying on the Mainnet requires real ETH and can result in a financial cost.
+   - Make sure your Metamask is connected to Sepolia Network.
    - Make sure you select the right compiler version to match the solidity contract. (In the compile tab)
    - Compile the code using the "Solidity Compiler" tab. _Note that it may take a moment to load the compiler_
    - Deploy the contract under the "Deploy and Run Transactions" tab
