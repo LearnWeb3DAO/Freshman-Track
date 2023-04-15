@@ -44,9 +44,9 @@ In the contract, write the following code:
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.18;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract LW3Token is ERC20 {
     constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {
@@ -58,15 +58,15 @@ contract LW3Token is ERC20 {
 Let's break it down line-by-line and understand what is going on:
 
 ```solidity
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.18;
 ```
 
-This line specifies the compiler version of Solidity to be used. `^0.8.0` means any version greater than `0.8.0`. Usually, you would want to use the latest Solidity compiler version, as a new version usually implies either new features or optimizations.
+This line specifies the compiler version of Solidity to be used. `^0.8.18` means any version greater than `0.8.18`. Usually, you would want to use the latest Solidity compiler version, as a new version usually implies either new features or optimizations.
 
 ---
 
 ```solidity
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 ```
 
 This line imports the `ERC-20` token standard from [OpenZeppelin](https://openzeppelin.com/) (OZ). OZ is an Ethereum security company. Among other things, OZ develops reference contracts for popular smart contract standards which are thoroughly tested and secure. Whenever implementing a smart contract which needs to comply with a standard, try to find an OZ reference implementation rather than rewriting the entire standard from scratch.
