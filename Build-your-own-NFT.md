@@ -52,7 +52,7 @@ npm install @openzeppelin/contracts
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 
 // Import the openzepplin contracts
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -138,7 +138,7 @@ const QUICKNODE_HTTP_URL = process.env.QUICKNODE_HTTP_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 module.exports = {
-  solidity: "0.8.9",
+  solidity: "0.8.19",
   networks: {
     goerli: {
       url: QUICKNODE_HTTP_URL,

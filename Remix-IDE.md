@@ -39,7 +39,7 @@ To compile our contracts, we shift over to the `Solidity Compiler` tab, and we w
 
 Here, we can choose which `Compiler Version` we want, which smart-contract programming language we are using (mostly you will just be using Solidity), and some further configuration options.
 
-Note: The other programming language listed in Remix, `Yul`, is a lower-level language. It is meant for intermediate compilation, and is closer to the hardware than Solidity is. 99% of the time you will not be coding in Yul. Read more about Yul here - [https://docs.soliditylang.org/en/v0.8.9/yul.html](https://docs.soliditylang.org/en/v0.8.9/yul.html)
+Note: The other programming language listed in Remix, `Yul`, is a lower-level language. It is meant for intermediate compilation, and is closer to the hardware than Solidity is. 99% of the time you will not be coding in Yul. Read more about Yul here - [https://docs.soliditylang.org/en/v0.8.19/yul.html](https://docs.soliditylang.org/en/v0.8.19/yul.html)
 
 Clicking `Compile 1_Storage.sol` will compile the contract and make it ready for deployment.
 

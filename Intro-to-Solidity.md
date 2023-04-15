@@ -17,7 +17,7 @@ In this module you will learn what is Solidity and the basic syntax of the langu
 
 ```solidity
 // Define the compiler version you would be using
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.19;
 
 // Start by creating a contract named HelloWorld
 contract HelloWorld {
@@ -37,7 +37,7 @@ There are 3 types of variables in Solidity
 - Global
   - Provide information about the blockchain. They are injected by the Ethereum Virtual Machine during runtime.
   - Includes things like transaction sender, block timestamp, block hash, etc.
-  - [Examples of global variables](https://docs.soliditylang.org/en/v0.8.17/units-and-global-variables.html)
+  - [Examples of global variables](https://docs.soliditylang.org/en/v0.8.19/units-and-global-variables.html)
 
 The scope of variables is defined by where they are declared, not their value. Setting a local variable's value to a global variable does not make it a global variable, as it is still only accessible within it's scope.
 
@@ -45,7 +45,7 @@ The scope of variables is defined by where they are declared, not their value. S
 
 ```solidity
 // Define the compiler version you would be using
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.19;
 
 // Start by creating a contract named Variables
 contract Variables {
@@ -112,7 +112,7 @@ contract Variables {
 
 ```solidity
 // Define the compiler version you would be using
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.19;
 
 // Start by creating a contract named Conditions
 contract Conditions {
@@ -186,7 +186,7 @@ contract Conditions {
 Array can have a compile-time fixed size or a dynamic size.
 
 ```solidity
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.19;
 
 contract Array {
 
@@ -266,7 +266,7 @@ contract Array {
 
 - [Cryptozombies](https://cryptozombies.io/)
 - [Solidity by Example](https://solidity-by-example.org/)
-- [Solidity docs](https://docs.soliditylang.org/en/v0.8.17/)
+- [Solidity docs](https://docs.soliditylang.org/en/v0.8.19/)
 
 ## DYOR Questions
 
