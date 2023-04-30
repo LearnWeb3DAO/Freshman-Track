@@ -204,7 +204,7 @@ Now it's time to create a Solidity smart contract.
    &nbsp;
 
 6. Deploy the contract on the Sepolia Testnet.
-   - **IMPORTANT:** It is essential to avoid connecting your Metamask wallet to the Ethereum Mainnet when practicing or testing deployments. Deploying on the Mainnet requires real ETH and can result in a financial cost.
+   - **IMPORTANT:** It is essential to avoid connecting your Metamask wallet to the Ethereum Mainnet when practicing or testing deployments. Deploying on the Mainnet requires real ETH and can     result in a financial cost.
    - Make sure your Metamask is connected to Sepolia Network.
    - Make sure you select the right compiler version to match the solidity contract. (In the compile tab)
    - Compile the code using the "Solidity Compiler" tab. _Note that it may take a moment to load the compiler_
@@ -230,7 +230,7 @@ Back in your local text editor in `index.html`, add the following code to your h
 
 ```html
 <script
-  src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js"
+  src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"
   type="application/javascript"
 ></script>
 
@@ -314,21 +314,22 @@ const MoodContractABI = [
   - This will allow your dApp to be compatible with both, Sepolia and Goerli networks
 
 ```JS
- const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
+ const provider = new ethers.providers.Web3Provider(window.ethereum, "sepolia");
 ```
 
 4. Request access to the user's wallet and connect the signer to your metamask account (we use `[0]` as the default), and define the contract object using your contract address, ABI, and signer
 
 ```JS
- provider.on("network", async () => {
-    await provider.send("eth_requestAccounts", []);
-    const accounts = await provider.listAccounts();
+provider.send("eth_requestAccounts", []).then(() => {
+  provider.listAccounts().then((accounts) => {
     signer = provider.getSigner(accounts[0]);
     MoodContract = new ethers.Contract(
       MoodContractAddress,
       MoodContractABI,
-      signer);
+      signer
+    );
   });
+});
 ```
 
 5. Create asynchronous functions to call your smart contract functions
