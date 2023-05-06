@@ -51,13 +51,13 @@ Moving over to the `Deployment` tab, we will see something like this in the side
 
 <Quiz questionId="be553003-ef98-4517-88ac-1cea9c4a4008" />
 
-First thing to note here is the `Environment`. Remix ships with a `Remix VM (London)` - which is a simulator of the Ethereum Virtual Machine (EVM) running the London Upgrade (Explanation on this is given in the Sophomore course) in the browser. This allows for fast testing and debugging of your smart contract, as long as your contract doesn't depend on another contract deployed to a real Ethereum network. Thankfully, our Storage contract does not, so we can test it right here in the Remix VM.
+First thing to note here is the `Environment`. Remix ships with a `Remix VM (Merge)` - which is a simulator of the Ethereum Virtual Machine (EVM) running the Merge Upgrade (Explanation on this is given in the Sophomore course) in the browser. This allows for fast testing and debugging of your smart contract, as long as your contract doesn't depend on another contract deployed to a real Ethereum network. Thankfully, our Storage contract does not, so we can test it right here in the Remix VM.
 
 To deploy to actual networks, we will want to change our `Environment` to one of the other options listed there (more on this later).
 
 <Quiz questionId="b4e0f228-abc7-4384-ba92-2839fe77ed11" />
 
-Along with the `Remix VM (London)`, Remix creates a set of fake accounts, all loaded up with 100 ETH, to test with.
+Along with the `Remix VM (Merge)`, Remix creates a set of fake accounts, all loaded up with 100 ETH, to test with.
 
 Select the `1_Storage.sol` contract from the dropdown, and click `Deploy` to deploy the contract.
 
@@ -77,7 +77,7 @@ Again, we see some logs in the output panel about the call to `Storage.store`. N
 
 ![](https://i.imgur.com/8PdOvHf.png)
 
- > **NOTE** - None of these function calls/transactions we made opened up your digital wallet (Metamask). This is because we are testing in the `Remix VM (London)` currently, and that is just a simulator working with fake accounts. When deploying to a real network (Testnet or mainnet), transactions need to be confirmed and signed through your digital wallet.
+ > **NOTE** - None of these function calls/transactions we made opened up your digital wallet (Metamask). This is because we are testing in the `Remix VM (Merge)` currently, and that is just a simulator working with fake accounts. When deploying to a real network (Testnet or mainnet), transactions need to be confirmed and signed through your digital wallet.
 
 ## Recommended
 
