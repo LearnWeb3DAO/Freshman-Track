@@ -44,7 +44,7 @@ In the contract, write the following code:
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
@@ -58,10 +58,10 @@ contract LW3Token is ERC20 {
 Let's break it down line-by-line and understand what is going on:
 
 ```solidity
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 ```
 
-This line specifies the compiler version of Solidity to be used. `^0.8.0` means any version greater than `0.8.0`. Usually, you would want to use the latest Solidity compiler version, as a new version usually implies either new features or optimizations.
+This line specifies the compiler version of Solidity to be used. `^0.8.19` means any version greater than `0.8.19`. Usually, you would want to use the latest Solidity compiler version, as a new version usually implies either new features or optimizations.
 
 ---
 

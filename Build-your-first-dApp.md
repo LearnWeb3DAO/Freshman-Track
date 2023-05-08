@@ -161,7 +161,7 @@ Now it's time to create a Solidity smart contract.
 
     ```JS
     // SPDX-License-Identifier: MIT
-    pragma solidity ^0.8.1;
+    pragma solidity ^0.8.19;
     ```
   
     - Define the contract
