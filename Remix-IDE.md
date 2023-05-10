@@ -47,7 +47,7 @@ Clicking `Compile 1_Storage.sol` will compile the contract and make it ready for
 
 Moving over to the `Deployment` tab, we will see something like this in the sidebar.
 
-![](https://i.imgur.com/svMiVS3.png)
+![](https://i.imgur.com/w4NRtD9.png)
 
 <Quiz questionId="be553003-ef98-4517-88ac-1cea9c4a4008" />
 
