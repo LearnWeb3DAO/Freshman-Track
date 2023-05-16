@@ -27,7 +27,7 @@ Every transaction on a blockchain modifies the global state that is replicated a
 
 ![](https://i.imgur.com/wjK9Foy.png)
 
-Since there are millions of transactions, transactions get grouped together in blocks. Hence the name. These blocks are chained together in a cryptographically verifiable way so they are historically traceable. The current state of a network can be recalculated at any time by starting from the genesis block and transitioning the state according to each block's information up until now.
+Since there are millions of transactions, transactions get grouped together in blocks, hence the name - Blockchain. These blocks are chained together in a cryptographically verifiable way so they are historically traceable. The current state of a network can be recalculated at any time by starting from the genesis block and transitioning the state according to each block's information up until now.
 
 <Quiz questionId="c7163d6f-a474-460d-93f8-ab11e6253af4" />
 
