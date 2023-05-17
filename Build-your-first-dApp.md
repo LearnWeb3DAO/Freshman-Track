@@ -29,7 +29,8 @@ If you would rather learn from a video, we have a recording available of this tu
 
 2. **Request some Goerli Testnet Ether from a faucet loaded into your Metamask Wallet.**
 
-   - [Faucet link to request funds](https://sepoliafaucet.com/)
+   - [Sepolia Faucet link to request funds](https://sepoliafaucet.com/) ```(Best)```
+   - [Goerli Faucet link to request funds](https://goerlifaucet.com/) ```(Will Deprecate in Jan 2024)```
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
 
 
