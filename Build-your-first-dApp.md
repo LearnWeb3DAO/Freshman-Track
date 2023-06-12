@@ -228,7 +228,7 @@ Back in your local text editor in `index.html`, add the following code to your h
 
 ```html
 <script
-  src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+  src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"
   type="application/javascript"
 ></script>
 
