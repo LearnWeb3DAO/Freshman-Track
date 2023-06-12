@@ -25,11 +25,12 @@ If you would rather learn from a video, we have a recording available of this tu
 
      _The important bits for us are: `1:06 to 4:14`_
 
-   - Click Ethereum Mainnet at the top. Change to the Goerli Testnet and get a copy of the account's public address on your Metamask Wallet.
+   - Click Ethereum Mainnet at the top. Change to the Sepolia Testnet and get a copy of the account's public address on your Metamask Wallet.
 
-2. **Request some Goerli Testnet Ether from a faucet loaded into your Metamask Wallet.**
+2. **Request some Sepolia Testnet Ether from a faucet loaded into your Metamask Wallet.**
 
-   - [Faucet link to request funds](https://goerlifaucet.com/)
+   - [Faucet link to request Sepolia funds](https://sepoliafaucet.com/)
+   - [PoW Faucet link to mine Sepolia funds](https://sepolia-faucet.pk910.de/)
    - [Blog explaining a faucet and how to use one](https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e)
 
 
@@ -202,14 +203,15 @@ Now it's time to create a Solidity smart contract.
 
    &nbsp;
 
-6. Deploy the contract on the Goerli Testnet.
-   - Make sure your Metamask is connected to the Goerli Testnet.
+6. Deploy the contract on the Sepolia Testnet.
+   - **IMPORTANT:** It is essential to avoid connecting your Metamask wallet to the Ethereum Mainnet when practicing or testing deployments. Deploying on the Mainnet requires real ETH and can     result in a financial cost.
+   - Make sure your Metamask is connected to Sepolia Network.
    - Make sure you select the right compiler version to match the solidity contract. (In the compile tab)
    - Compile the code using the "Solidity Compiler" tab. _Note that it may take a moment to load the compiler_
    - Deploy the contract under the "Deploy and Run Transactions" tab
    - Under the Deployed Contracts section, you can test out your functions on the Remix Run tab to make sure your contract works as expected!
 
-**_Be sure to deploy on Goerli via Remix under the `Injected Provider - MetaMask` environment and confirm the deployment transaction in Metamask_**
+**_Be sure to deploy on Sepolia via Remix under the `Injected Provider - MetaMask` environment and confirm the deployment transaction in Metamask_**
 
 Make a new temporary file to hold:
 
@@ -308,10 +310,11 @@ const MoodContractABI = [
 ]
 ```
 
-3. Next, Define an ethers provider. In our case it is Goerli:
+3. Next, Define an ethers provider. In our case it is "any":
+  - This will allow your dApp to be compatible with both, Sepolia and Goerli networks
 
 ```JS
-const provider = new ethers.providers.Web3Provider(window.ethereum, "goerli");
+ const provider = new ethers.providers.Web3Provider(window.ethereum, "sepolia");
 ```
 
 4. Request access to the user's wallet and connect the signer to your metamask account (we use `[0]` as the default), and define the contract object using your contract address, ABI, and signer
@@ -359,7 +362,7 @@ async function setMood() {
 
 1. Got your web server up? Go to [http://127.0.0.1:3000/](http://127.0.0.1:3000/) in your browser to see your page!
 2. Test your functions and approve the transactions as needed through Metamask. Note block times are ~15 seconds... so wait a bit to read the state of the blockchain
-3. See your contract and transaction info via [https://goerli.etherscan.io/](https://goerli.etherscan.io/)
+3. See your contract and transaction info via [https://sepolia.etherscan.io/](https://sepolia.etherscan.io/)
 4. Open a console (`Ctrl + Shift + i`) in the browser to see the magic happen as you press those buttons
 
 ---
@@ -378,13 +381,13 @@ cd BasicFrontEndTutorial
 lite-server
 ```
 
-#### Try and use the following information to interact with an existing contract we published on the Ropsten testnet (yours will be on Goerli):
+#### Try and use the following information to interact with an existing contract we published on the Sepolia testnet:
 
-- We have a `MoodDiary` contract instance created [at this transaction](https://ropsten.etherscan.io/tx/0x8da093fdc4ae3e1b469dfff97b414a9800c9fdd8c1c897b6b746faf43aa3b7f8).
+- We have a `MoodDiary` contract instance created [at this transaction](https://sepolia.etherscan.io/tx/0xae892272f85c1aa85e96a71e59094732903e569d02c3e76ded38bce6571a424f).
 
-- Here is the contract ([on etherscan](https://ropsten.etherscan.io/address/0xc5afd2d92750612a9619db2282d9037c58fc22cb)).
+- Here is the contract ([on etherscan](https://sepolia.etherscan.io/address/0x3974c9E5F76da65Be66Aa4b0BB5Eec9c8d101c0a)).
 
-  - We also verified our source code to [ropsten.etherscan.io](https://ropsten.etherscan.io/address/0xc5afd2d92750612a9619db2282d9037c58fc22cb#code) as an added measure for you to verify what the contract is exactly, and also the ABI is available to _the world_!
+  - We also verified our source code to [sepolia.etherscan.io](https://sepolia.etherscan.io/address/0x3974c9E5F76da65Be66Aa4b0BB5Eec9c8d101c0a#code) as an added measure for you to verify what the contract is exactly, and also the ABI is available to _the world_!
 
 - The ABI is also in [this file](https://github.com/LearnWeb3DAO/BasicFrontEndTutorial/blob/master/Mood_ABI.json).
 
