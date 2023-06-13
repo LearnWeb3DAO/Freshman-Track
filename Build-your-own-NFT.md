@@ -85,7 +85,7 @@ const hre = require("hardhat");
 
 async function main() {
   /*
-A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
+DeployContract in ethers.js is an abstraction used to deploy new smart contracts,
 so nftContract here is a factory for instances of our NFTee contract.
 */
   // here we deploy the contract
