@@ -80,24 +80,22 @@ If there are no errors, you are good to go :)
 Let's deploy the contract to `goerli` test network. To do this, we'll write a deployment script and then configure the network. First, create a new file/replace the default file named `deploy.js` under the `scripts` folder, and write the following code there:
 
 ```js
-// Import ethers from Hardhat package
-const { ethers } = require("hardhat");
+// Import the Hardhat package
+const hre = require("hardhat");
 
 async function main() {
   /*
 A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
 so nftContract here is a factory for instances of our NFTee contract.
 */
-  const nftContract = await ethers.getContractFactory("NFTee");
-
   // here we deploy the contract
-  const deployedNFTContract = await nftContract.deploy();
+const nftContract = await hre.ethers.deployContract("NFTee");
 
-  // wait for the contract to deploy
-  await deployedNFTContract.deployed();
+// wait for the contract to deploy
+await nftContract.waitForDeployment();
 
-  // print the address of the deployed contract
-  console.log("NFT Contract Address:", deployedNFTContract.address);
+// print the address of the deployed contract
+console.log("NFT Contract Address:", nftContract.target);
 }
 
 // Call the main function and catch if there is any error
