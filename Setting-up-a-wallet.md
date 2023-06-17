@@ -60,9 +60,17 @@ At LearnWeb3 as well, you can go into the Dashboard and connect your crypto wall
 
 ## Setting up a Wallet 🎉
 
+### IMPORTANT 🛑
+
+Make sure to create a new wallet for development purposes only. **Do NOT use your own wallet with live funds for any development purposes**. Throughout this course we'll be expecting you to use this newly created development wallet whenever we mention to include the wallet details or its private keys.
+
+### Continuing 😎
+
 For Ethereum, there are a number of wallet options available. The easiest to get started using, and most developer friendly, are either Metamask or Coinbase Wallet.
 
 Both are Ethereum crypto wallets that can be installed as browser extensions, or as a mobile apps. You can find the download links below. We suggest downloading any one of them, and setting it up, before proceeding with the track.
+
+
 
 - [Download Metamask](https://metamask.io/download.html)
 - [Download Coinbase Wallet](https://www.coinbase.com/wallet)
